@@ -5,7 +5,7 @@ import numpy as np
 import cv2
 
 app = FastAPI()
-model = YOLO("model.pt")
+model = YOLO("Model_ThurianX_app.pt")
 
 @app.get("/")
 def read_root():
